@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The AwakenOS Project
+# Copyright (C) 2024 Evolution X
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,12 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/tundra/device.mk)
 
 # Inherit common PixelOS configurations
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_MINI_GAPPS := true
+EXTRA_UDFPS_ANIMATIONS := true
 
-PRODUCT_NAME := aosp_tundra
+PRODUCT_NAME := evolution_tundra
 PRODUCT_DEVICE := tundra
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
