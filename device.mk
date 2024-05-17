@@ -108,7 +108,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service_64 \
     libcamera2ndk_vendor \
     libgui_vendor \
-    libprotobuf-cpp-full \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
 PRODUCT_PACKAGES += \
@@ -371,7 +370,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
     libjson \
     libqsap_sdk \
-    libprotobuf-cpp-full \
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
     libprotobuf-cpp-lite-3.9.1-vendorcompat \
     librmnetctl
 
