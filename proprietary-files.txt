@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from tundra_g 13 T1SJ33.117-30-4 6a9b48 release-keys
+# All unpinned blobs below are extracted from tundra_g 13 T1SJS33.117-30-3-8 bf62b release-keys
 
 # ACDB Data
 vendor/etc/acdbdata/Bluetooth_cal.acdb
