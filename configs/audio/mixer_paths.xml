@@ -359,18 +359,18 @@
     <ctl name="BCS Channel" value="CH6" />
 
     <!-- Volume controls -->
-    <ctl name="RX_RX0 Digital Volume" value="84" />
-    <ctl name="RX_RX1 Digital Volume" value="84" />
-    <ctl name="RX_RX2 Digital Volume" value="84" />
+    <ctl name="RX_RX0 Digital Volume" value="104" />
+    <ctl name="RX_RX1 Digital Volume" value="104" />
+    <ctl name="RX_RX2 Digital Volume" value="104" />
 
-    <ctl name="TX_DEC0 Volume" value="84" />
-    <ctl name="TX_DEC1 Volume" value="84" />
-    <ctl name="TX_DEC2 Volume" value="84" />
-    <ctl name="TX_DEC3 Volume" value="84" />
-    <ctl name="TX_DEC4 Volume" value="84" />
-    <ctl name="TX_DEC5 Volume" value="84" />
-    <ctl name="TX_DEC6 Volume" value="84" />
-    <ctl name="TX_DEC7 Volume" value="84" />
+    <ctl name="TX_DEC0 Volume" value="104" />
+    <ctl name="TX_DEC1 Volume" value="104" />
+    <ctl name="TX_DEC2 Volume" value="104" />
+    <ctl name="TX_DEC3 Volume" value="104" />
+    <ctl name="TX_DEC4 Volume" value="104" />
+    <ctl name="TX_DEC5 Volume" value="104" />
+    <ctl name="TX_DEC6 Volume" value="104" />
+    <ctl name="TX_DEC7 Volume" value="104" />
 
 
     <!-- Headphone class-H mode  -->
@@ -1465,7 +1465,7 @@
     <!-- VoIP Tx settings -->
     <path name="audio-record-voip">
         <ctl name="MultiMedia10 Mixer TX_CDC_DMA_TX_3" value="1" />
-        <ctl name="TX_DEC2 Volume" value="84" />
+        <ctl name="TX_DEC2 Volume" value="104" />
     </path>
 
     <path name="audio-record-voip headset-mic">
@@ -2144,7 +2144,7 @@
 
     <path name="headset-mic">
         <path name="amic2" />
-        <ctl name="TX_DEC0 Volume" value="84" />
+        <ctl name="TX_DEC0 Volume" value="104" />
     </path>
 
     <path name="external-mic">
