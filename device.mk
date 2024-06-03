@@ -231,7 +231,7 @@ PRODUCT_PACKAGES += \
 
 # Hotword Enrollement
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/privapp-permissions-google-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-hotword.xml
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-google-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-hotword.xml
 
 # Init
 PRODUCT_COPY_FILES += \
@@ -351,6 +351,9 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/opensource/power/config/lahaina/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
 # QTI
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
+
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
 

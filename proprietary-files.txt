@@ -855,7 +855,6 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
 # QMI
 system/etc/permissions/privapp-permissions-qti.xml
-system/etc/sysconfig/qti_whitelist.xml
 vendor/bin/irsc_util
 vendor/bin/qcom-system-daemon
 vendor/bin/qmipriod
