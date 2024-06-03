@@ -342,7 +342,7 @@ product/etc/permissions/com.motorola.camera3.xml
 product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml
 product/etc/permissions/privapp-permissions-com.motorola.camera3.xml
 product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml
-product/priv-app/MotCamera4/MotCamera4.apk;OVERRIDES=Aperture,Camera2;PRESIGNED
+product/priv-app/MotCamera4/MotCamera4.apk;OVERRIDES=Aperture,Camera2|97441994a9cb7d9c54322d67dc63e709e31fda19
 
 # CDSP
 vendor/bin/cdsprpcd
