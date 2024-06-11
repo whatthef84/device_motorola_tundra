@@ -206,7 +206,6 @@ PRODUCT_PACKAGES += \
     gnss_antenna_info.conf \
     gps.conf \
     izat.conf \
-    lowi.conf \
     sap.conf
 
 PRODUCT_PACKAGES += \
@@ -291,8 +290,7 @@ PRODUCT_PACKAGES += \
 
 # Moto hardware
 PRODUCT_PACKAGES += \
-    MotoActions \
-    MotoCommonOverlay
+    MotoActions
 
 # Native libraries whitelist
 PRODUCT_COPY_FILES += \
